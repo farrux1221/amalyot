@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 47px;
+}
+.navbar-menu {
+  display: flex;
+  gap: 50px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar {
+  height: 100vh;
+  background-image: url(./img/Rectangle\ 31.png);
+}
+.logo {
+  color: rgb(255, 255, 255);
+  font-family: Ribeye;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 6%;
+  text-align: left;
+}
+.btn button {
+  padding: 14px 35px;
+  border-radius: 5px;
+  color: #fff;
+  border: 0;
+
+  background: rgb(201, 69, 59);
+}
+.btn button:hover {
+  cursor: pointer;
+  background: rgb(216, 123, 116);
+}
+.content{
+    padding-top: 212px;
+}
+.content-title {
+  color: rgb(255, 255, 255);
+  font-family: Gelasio;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 800px;
+}
+.content-text {
+  color: gray;
+  padding-top: 30px;
+  padding-bottom: 40px; 
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 458px;
+}
+button{
+    padding: 18px 47px;
+    border-radius: 5px;
+border: 0;
+color:#fff;
+background: rgb(201, 69, 59);
+}
+button:hover {
+    cursor: pointer;
+    background: rgb(216, 123, 116);
+  }
